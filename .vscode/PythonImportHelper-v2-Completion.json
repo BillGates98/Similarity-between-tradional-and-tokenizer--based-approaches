@@ -1,0 +1,303 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "isExtraImport": true,
+        "detail": "compute_files",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "isExtraImport": true,
+        "detail": "compute_files",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "isExtraImport": true,
+        "detail": "compute_files",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "validators",
+        "description": "validators",
+        "detail": "validators",
+        "documentation": {}
+    },
+    {
+        "label": "SimilarityMeasure",
+        "importPath": "similarity_measures",
+        "description": "similarity_measures",
+        "isExtraImport": true,
+        "detail": "similarity_measures",
+        "documentation": {}
+    },
+    {
+        "label": "networkx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "networkx",
+        "description": "networkx",
+        "detail": "networkx",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "RecommenderSystem",
+        "importPath": "recommender_system",
+        "description": "recommender_system",
+        "isExtraImport": true,
+        "detail": "recommender_system",
+        "documentation": {}
+    },
+    {
+        "label": "JaroWinkler",
+        "importPath": "strsimpy.jaro_winkler",
+        "description": "strsimpy.jaro_winkler",
+        "isExtraImport": true,
+        "detail": "strsimpy.jaro_winkler",
+        "documentation": {}
+    },
+    {
+        "label": "Tiktokenizer",
+        "importPath": "tiktokenizer",
+        "description": "tiktokenizer",
+        "isExtraImport": true,
+        "detail": "tiktokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "StringSimilarity",
+        "importPath": "hpp_similarity",
+        "description": "hpp_similarity",
+        "isExtraImport": true,
+        "detail": "hpp_similarity",
+        "documentation": {}
+    },
+    {
+        "label": "tiktoken",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tiktoken",
+        "description": "tiktoken",
+        "detail": "tiktoken",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "kind": 6,
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "peekOfCode": "class ComputeFile:\n    def __init__(self, input_path='', output_path=''):\n        self.input_path = input_path\n        self.output_path = output_path\n        self.input_files = []\n        self.output_files = []\n        self.extensions = ['.ttl', '.nt', '.rdf', '.owl', '.csv']\n    def build_graph(self, input_file=''):\n        graph = Graph()\n        graph.parse(input_file, format=get_format(value=input_file))",
+        "detail": "compute_files",
+        "documentation": {}
+    },
+    {
+        "label": "DatasetStat",
+        "kind": 6,
+        "importPath": "dataset_stats",
+        "description": "dataset_stats",
+        "peekOfCode": "class DatasetStat:\n    def __init__(self, source='', target='', truth=''):\n        self.source = source\n        self.target = target\n        self.truth = truth\n    def load_rdf(self, file=''):\n        g = Graph()\n        g.parse(file)\n        return g\n    def statistics(self, graph=None):",
+        "detail": "dataset_stats",
+        "documentation": {}
+    },
+    {
+        "label": "Drawer",
+        "kind": 6,
+        "importPath": "drawer",
+        "description": "drawer",
+        "peekOfCode": "class Drawer:\n    def __init__(self, suffix=''):\n        self.file = './outputs/' + suffix + '_data.csv'\n        self.suffix = suffix\n        self.columns = ['JW', 'HPP', 'p50k_base',\n                        'cl100k_base', 'r50k_base', 'gpt2']  # 'JW',\n    def read_csv(self):\n        data = pd.read_csv(self.file, index_col=0)\n        return data\n    def heap_map(self):",
+        "detail": "drawer",
+        "documentation": {}
+    },
+    {
+        "label": "StringSimilarity",
+        "kind": 6,
+        "importPath": "hpp_similarity",
+        "description": "hpp_similarity",
+        "peekOfCode": "class StringSimilarity:\n    def __init__(self, source='', target=''):\n        self.symbols = [] if len(\n            list(string.printable)) == 0 else list(string.printable)\n        self.source = source.lower()\n        self.target = target.lower()\n    def symbol_vector(self, value=''):\n        output = np.zeros(len(self.symbols))\n        output[self.symbols.index(value)] = 1\n        return output",
+        "detail": "hpp_similarity",
+        "documentation": {}
+    },
+    {
+        "label": "Linking",
+        "kind": 6,
+        "importPath": "linking",
+        "description": "linking",
+        "peekOfCode": "class Linking:\n    def __init__(self, source='', target='', truth='', suffix='', random_size=100):\n        self.source = source\n        self.target = target\n        self.truth = truth\n        self.suffix = suffix\n        self.truth_subjects = {}\n        self.random_size = random_size\n    def load_graph(self, file=''):\n        graph = Graph()",
+        "detail": "linking",
+        "documentation": {}
+    },
+    {
+        "label": "Main",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class Main:\n    def __init__(self, source='', target='', top=5):\n        self.source = source\n        self.target = target\n        self.nx_graph = nx.Graph()\n        self.source_subjects = {}\n        self.target_subjects = {}\n        self.neighbors = {}\n        self.top = top\n        self.sim_ceil = 0.5",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "SimilarityMeasure",
+        "kind": 6,
+        "importPath": "similarity_measures",
+        "description": "similarity_measures",
+        "peekOfCode": "class SimilarityMeasure:\n    def __init__(self, source='', target=''):\n        self.source = source\n        self.target = target\n        self.models = ['p50k_base', 'cl100k_base',\n                       'r50k_base', 'gpt2']\n    def jaro_winkler(self):\n        start = time.time()\n        jarowinkler = JaroWinkler()\n        value = jarowinkler.similarity(self.source, self.target)",
+        "detail": "similarity_measures",
+        "documentation": {}
+    },
+    {
+        "label": "Statistics",
+        "kind": 6,
+        "importPath": "statistic",
+        "description": "statistic",
+        "peekOfCode": "class Statistics:\n    def __init__(self, suffix=''):\n        self.file = './outputs/' + suffix + '_data.csv'\n        self.suffix = suffix\n        self.columns = ['JW', 'HPP', 'p50k_base',\n                        'cl100k_base', 'r50k_base', 'gpt2']  # 'JW',\n    def read_csv(self):\n        data = pd.read_csv(self.file, index_col=0)\n        return data\n    def run(self):",
+        "detail": "statistic",
+        "documentation": {}
+    },
+    {
+        "label": "Tiktokenizer",
+        "kind": 6,
+        "importPath": "tiktokenizer",
+        "description": "tiktokenizer",
+        "peekOfCode": "class Tiktokenizer:\n    def __init__(self, source='', target=''):\n        self.models = []\n        self.source = source\n        self.target = target\n        self.models = ['p50k_base', 'cl100k_base',\n                       'r50k_base', 'gpt2']\n    def cosine_similarity(self, v1=[], v2=[]):\n        max_length = max(len(v1), len(v2))\n        v1 = np.pad(v1, (0, max_length - len(v1)), 'constant')",
+        "detail": "tiktokenizer",
+        "documentation": {}
+    }
+]

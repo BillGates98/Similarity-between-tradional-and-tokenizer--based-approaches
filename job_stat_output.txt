@@ -1,0 +1,78 @@
+Dataset Statistic :  anatomy
+JW {'mean': 0.77, 'std': 0.13} 
+
+HPP {'mean': 0.9, 'std': 0.16} 
+
+p50k_base {'mean': 0.42, 'std': 0.35} 
+
+cl100k_base {'mean': 0.46, 'std': 0.35} 
+
+r50k_base {'mean': 0.42, 'std': 0.35} 
+
+gpt2 {'mean': 0.42, 'std': 0.35}
+
+Dataset Statistic :  restaurant
+JW {'mean': 0.41, 'std': 0.04} 
+
+HPP {'mean': 0.38, 'std': 0.03} 
+
+p50k_base {'mean': 0.6, 'std': 0.14} 
+
+cl100k_base {'mean': 0.56, 'std': 0.13} 
+
+r50k_base {'mean': 0.6, 'std': 0.14} 
+
+gpt2 {'mean': 0.6, 'std': 0.14} 
+
+Dataset Statistic :  doremus
+JW {'mean': 0.56, 'std': 0.12} 
+
+HPP {'mean': 0.38, 'std': 0.11} 
+
+p50k_base {'mean': 0.32, 'std': 0.11} 
+
+cl100k_base {'mean': 0.32, 'std': 0.13} 
+
+r50k_base {'mean': 0.32, 'std': 0.11} 
+
+gpt2 {'mean': 0.32, 'std': 0.11} 
+
+Dataset Statistic :  person
+JW {'mean': 0.29, 'std': 0.06} 
+
+HPP {'mean': 0.25, 'std': 0.04} 
+
+p50k_base {'mean': 0.46, 'std': 0.11} 
+
+cl100k_base {'mean': 0.48, 'std': 0.1} 
+
+r50k_base {'mean': 0.46, 'std': 0.11} 
+
+gpt2 {'mean': 0.46, 'std': 0.11} 
+
+Dataset Statistic :  SPIMBENCH_small-2019
+JW {'mean': 0.67, 'std': 0.04} 
+
+HPP {'mean': 0.41, 'std': 0.05} 
+
+p50k_base {'mean': 0.42, 'std': 0.11} 
+
+cl100k_base {'mean': 0.41, 'std': 0.11} 
+
+r50k_base {'mean': 0.42, 'std': 0.11} 
+
+gpt2 {'mean': 0.42, 'std': 0.11} 
+
+Dataset Statistic :  SPIMBENCH_large-2016
+JW {'mean': 0.67, 'std': 0.04} 
+
+HPP {'mean': 0.41, 'std': 0.06} 
+
+p50k_base {'mean': 0.42, 'std': 0.11} 
+
+cl100k_base {'mean': 0.4, 'std': 0.11} 
+
+r50k_base {'mean': 0.42, 'std': 0.11} 
+
+gpt2 {'mean': 0.42, 'std': 0.11} 
+
