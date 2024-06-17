@@ -179,14 +179,6 @@
         "documentation": {}
     },
     {
-        "label": "RecommenderSystem",
-        "importPath": "recommender_system",
-        "description": "recommender_system",
-        "isExtraImport": true,
-        "detail": "recommender_system",
-        "documentation": {}
-    },
-    {
         "label": "JaroWinkler",
         "importPath": "strsimpy.jaro_winkler",
         "description": "strsimpy.jaro_winkler",
@@ -242,7 +234,7 @@
         "kind": 6,
         "importPath": "drawer",
         "description": "drawer",
-        "peekOfCode": "class Drawer:\n    def __init__(self, suffix=''):\n        self.file = './outputs/' + suffix + '_data.csv'\n        self.suffix = suffix\n        self.columns = ['JW', 'HPP', 'p50k_base',\n                        'cl100k_base', 'r50k_base', 'gpt2']  # 'JW',\n    def read_csv(self):\n        data = pd.read_csv(self.file, index_col=0)\n        return data\n    def heap_map(self):",
+        "peekOfCode": "class Drawer:\n    def __init__(self, suffix=''):\n        self.file = './outputs/' + suffix + '_data.csv'\n        self.suffix = suffix\n        self.columns = ['JW', 'p50k_base',\n                        'cl100k_base', 'r50k_base', 'gpt2']  # 'JW',\n        if not os.path.exists('./outputs/' + self.suffix):\n            os.makedirs('./outputs/' + self.suffix)\n    def read_csv(self):\n        data = pd.read_csv(self.file, index_col=0)",
         "detail": "drawer",
         "documentation": {}
     },

@@ -22,4 +22,4 @@
 
 > Table of results :
 
-![screenshot](comparison_token-traditional-approaches.png)
+![screenshot](comparison_results.png)

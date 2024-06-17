@@ -60,16 +60,20 @@ class Linking:
             for value1 in literals1:
                 for value2 in literals2:
                     tmp = SimilarityMeasure(source=value1, target=value2).run()
-                    for key, value in tmp.items():
-                        if not key in output:
-                            output[key] = []
-                        output[key].append(value)
+                    for key, value_time in tmp.items():
+                        # if not key in output:
+                        #     output[key] = []
+                        for _key, _value in value_time.items():
+                            if not _key in output:
+                                output[key + '_' + _key] = []
+                            output[key + '_' + _key].append(_value)
             for key, values in output.items():
                 output[key] = np.mean(values)
         return output
 
     def entity_comparisons(self, candidates=[], source_bunches={}, target_bunches={}):
         output = {'source': [], 'target': []}
+        time_output = {}
         for s, t in tqdm(candidates):
             if s in source_bunches and t in target_bunches:
                 source = source_bunches[s]
@@ -84,6 +88,10 @@ class Linking:
                         if not key in output:
                             output[key] = []
                         output[key].append(value)
+        for key, value in output.items():
+            if '_time' in key:
+                time_output[key] = np.mean(value)
+        print('Average time of comparison : ', time_output)
         return output
 
     def deep_building_of_entities(self, file=''):

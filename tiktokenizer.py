@@ -1,5 +1,6 @@
 import numpy as np
 import tiktoken
+import time
 
 
 class Tiktokenizer:
@@ -27,11 +28,13 @@ class Tiktokenizer:
     def run(self):
         output = {}
         for model in self.models:
+            start = time.time()
             source_vector = self.vector_encoding(
                 model_name=model, value=self.source)
             target_vector = self.vector_encoding(
                 model_name=model, value=self.target)
             similarity = self.cosine_similarity(
                 v1=source_vector, v2=target_vector)
-            output[model] = similarity if similarity > 0 else 0.0
+            output[model] = {'value': similarity if similarity >
+                             0 else 0.0, 'time': time.time() - start}
         return output

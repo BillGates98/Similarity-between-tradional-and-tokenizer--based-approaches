@@ -5,7 +5,6 @@ import argparse
 import time
 import numpy as np
 import math
-from recommender_system import RecommenderSystem
 
 
 class Main:

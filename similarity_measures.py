@@ -16,33 +16,31 @@ class SimilarityMeasure:
         start = time.time()
         jarowinkler = JaroWinkler()
         value = jarowinkler.similarity(self.source, self.target)
-        # return {'value': value, 'time': time.time()-start}
-        return value if value else 0.0
+        return {'value': value if value else 0.0, 'time': time.time()-start}
 
     def hpp(self):
         start = time.time()
         measure = StringSimilarity(self.source, self.target)
         value = measure.run()
-        # return {'value': value, 'time': time.time()-start}
-        return value if value else 0.0
+        return {'value': value if value else 0.0, 'time': time.time()-start}
 
     def tik_tokenizer(self):
         measure = Tiktokenizer(source=self.source, target=self.target)
         value = measure.run()
-        return value if value else 0.0
+        return value
 
     def run(self):
         if len(self.source) == 0 or len(self.target) == 0:
             tmp = {
-                'JW': 0.0,
-                'HPP': 0.0,
+                'JW': {'value': 0.0, 'time': 0.0},
+                # 'HPP': {'value': 0.0, 'time': 0.0}
             }
             for model in self.models:
-                tmp[model] = 0.0
+                tmp[model] = {'value': 0.0, 'time': 0.0}
             return tmp
         output = {
             'JW': self.jaro_winkler(),
-            'HPP': self.hpp(),
+            # 'HPP': self.hpp(),
         }
 
         tik_tokens = self.tik_tokenizer()
