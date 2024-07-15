@@ -23,3 +23,9 @@
 > Table of results :
 
 ![screenshot](comparison_results.png)
+
+> Running time results :
+
+![screenshot](comparison_times.png)
+
+> 
